@@ -8,11 +8,9 @@ class Game
 
 
   def winner(player1, player2)
-    return @results["#{player1}/#{player2}"]
-  end
-
-
-
+ result = ["#{player1}/#{player2}"]
+ return @results.index(1)
+  endß
 end
 
 #

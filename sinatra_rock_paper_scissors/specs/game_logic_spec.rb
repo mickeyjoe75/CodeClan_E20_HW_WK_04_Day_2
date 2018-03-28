@@ -20,7 +20,7 @@ class TestGame < Minitest::Test
 
 
   def test_winner()
-    assert_equal("Player 1 won!", @results.winner(player1,player2))
+    assert_equal("Player 1 won!", @results.index[1])
   end
 
 
